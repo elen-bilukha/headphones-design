@@ -1,0 +1,61 @@
+@font-face{
+    font-family: Beauty;
+    src: url(../images/18475.otf);
+}
+body{
+    background:url(../images/its.jpg);
+    backdrop-filter: blur(10px);
+}
+h1{
+    text-align:right;
+    color:white;
+    font-family: Beauty;
+    text-shadow: 10px 5px wheat;
+    font-size:35px;
+    letter-spacing: 2px;
+    
+}
+p{
+    border: 2px solid gold;
+    background: honeydew fixed;
+    padding: 1rem;
+    line-height: 2rem;
+    text-transform: uppercase;
+}
+
+p::first-line{
+    color:palevioletred;
+    font-family: Beauty;
+    font-size: 30px;
+    line-height: 10px;
+    text-indent: 30px;
+}
+h1:hover
+{
+    text-transform: capitalize;
+}
+
+figcaption{
+    font-style: italic;
+   color:palevioletred;
+    font-weight: bold;
+}
+ .container{
+     display: grid;
+     grid-template-columns: 60rem;
+    align-items: center;
+    justify-content: center;
+    
+
+ }
+input{
+    position:absolute;
+    left:300px;
+    top:900px;
+    height:50px;
+    width:200px;
+    background: url("../images/logo.png") no-repeat 50% 50%; 
+    background-size:cover;
+
+}
+
